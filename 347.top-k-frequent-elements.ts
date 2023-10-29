@@ -6,6 +6,7 @@
 
 // @lc code=start
 function topKFrequent(nums: number[], k: number): number[] {
+
     const map: { [key: number]: number } = {};
     nums.forEach(num => {
         if (map[num] === undefined) {
