@@ -1,18 +1,14 @@
 {
     "version": "0.2.0",
     "configurations": [
-      {
-        "type": "node",
-        "request": "launch",
-        "name": "Launch TS",
-        "skipFiles": [
-          "<node_internals>/**"
-        ],
-        "program": "${file}",
-        "preLaunchTask": "tsc: build - tsconfig.json",
-        "outFiles": [
-          "${workspaceFolder}/dist/**/*.js"
-        ]
-      }
+        {
+            "type": "pwa-node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": ["<node_internals>/**"],
+            "program": "${file}",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": ["${workspaceFolder}/dist/**/*.js"]
+        }
     ]
 }
