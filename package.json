@@ -5,7 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["leetcode", "typescript"],
+  "keywords": [
+    "leetcode",
+    "typescript"
+  ],
   "author": "Tim.Tsai",
   "license": "ISC",
   "dependencies": {
